@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Say Hello",
+    "version": "1.0",
+    "description": "Do something",
+  
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "matches": [
+            "https://www.google.ru/*",
+            "https://www.youtube.com/*",
+            "https://ya.ru/*"
+        ]
+      }
+    ]
+  }
